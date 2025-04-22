@@ -31,3 +31,11 @@ Remove outliers using z-scores or IQR.
 Scale features (crucial for KNN) using StandardScaler.
 Encode categorical variables (if any, e.g., location).
 
+
+Step 4: Model Training
+Models:
+KNN Regressor: Tune n_neighbors (e.g., 3–10) and weights (uniform or distance).
+RF Regressor: Tune n_estimators (e.g., 100–500), max_depth, and min_samples_split.
+Hyperparameter Tuning: Use GridSearchCV for optimal parameters.
+
+
