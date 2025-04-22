@@ -42,4 +42,11 @@ Step 5: Model Evaluation
 Metrics: Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R² Score.
 Compare Models: Evaluate KNN and RF on the test set to select the better performer.
 
+Step 6: Flask Backend Pipeline
+Purpose: Deploy the trained model as a web app where users input features and receive AQI predictions.
+Components:
+Flask app to handle HTTP requests.
+HTML form for user input.
+Model and scaler loaded for inference.
+
 
