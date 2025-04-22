@@ -38,4 +38,8 @@ KNN Regressor: Tune n_neighbors (e.g., 3–10) and weights (uniform or distance)
 RF Regressor: Tune n_estimators (e.g., 100–500), max_depth, and min_samples_split.
 Hyperparameter Tuning: Use GridSearchCV for optimal parameters.
 
+Step 5: Model Evaluation
+Metrics: Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R² Score.
+Compare Models: Evaluate KNN and RF on the test set to select the better performer.
+
 
