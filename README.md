@@ -1,7 +1,7 @@
 # AQI-----Deployment
 
 Air quality Index prediction using Machine learning
-
+ 
 
 Project Overview
 This project predicts the Air Quality Index (AQI) for a given location using environmental features like pollutant concentrations (PM2.5, PM10, NO2, SO2, CO, O3) and weather conditions (temperature, humidity, wind speed). AQI is a numerical scale indicating air pollution levels, with higher values signaling worse air quality. The project employs K-Nearest Neighbors (KNN) Regressor and Random Forest (RF) Regressor models for prediction, and a Flask backend serves the model via a web interface for real-time AQI predictions.
